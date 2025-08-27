@@ -13,6 +13,10 @@ const workRoutes = require("./routes/work");
 
 const app = express();
 
+if (process.env.NODE_ENV === "production") {
+  app.disable("x-powered-by");
+}
+
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.use(helmet());
