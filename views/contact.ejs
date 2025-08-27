@@ -1,0 +1,33 @@
+<% layout('layouts/boilerplate') %>
+<h1 class="contact-title">Contact</h1>
+<% if (success.length > 0) { %>
+<div class="alert alert-success" role="alert"><%= success %></div>
+<% } %> <% if (error.length > 0) { %>
+<div class="alert alert-danger" role="alert"><%= error %></div>
+<% } %>
+<div class="fa-container">
+  <a
+    href="https://www.instagram.com/sabripachh/"
+    target="_blank"
+    class="fa-links"
+  >
+    <i class="fa-brands fa-instagram fa-2x"></i>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/sabrina-pacheco-b61398292/"
+    target="_blank"
+    class="fa-links"
+  >
+    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+  </a>
+</div>
+
+<p class="contact-text">Email: sabripach.styling@gmail.com</p>
+
+<form action="/send" method="POST" class="form-box">
+  <input type="text" name="name" placeholder="Name" required />
+  <input type="email" name="email" placeholder="Email" required />
+  <textarea name="message" rows="5" placeholder="Message" required></textarea>
+  <input type="text" name="phone" style="display: none" />
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>

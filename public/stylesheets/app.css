@@ -1,0 +1,52 @@
+* { 
+    font-family: 'Century Gothic', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.btn-primary {
+  --bs-btn-bg: #ccc;
+  --bs-btn-border-color: #ccc;
+  --bs-btn-color: #000;
+  --bs-btn-hover-bg: #b3b3b3;
+  --bs-btn-hover-border-color: #b3b3b3;
+  --bs-btn-hover-color: #000;
+  --bs-btn-active-bg: #999;
+  --bs-btn-active-border-color: #999;
+  --bs-btn-active-color: #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  footer a:hover {
+    color: #007bff;
+  }
+
+  footer a:focus, footer a:active {
+    color: #007bff;
+  }
+
+.logo {
+  width: 20vw;
+  max-width: 130px;
+  height: auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 63vh;
+  width: auto;
+  object-fit: contain;
+  margin: 1.25rem auto 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 20px;
+}

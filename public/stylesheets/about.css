@@ -1,0 +1,29 @@
+.about-text {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.about-title {
+  max-width: 750px;
+  margin: 0 auto 2rem auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bio-img {
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+@media (min-width: 1026px) {
+  .bio-img {
+    max-width: 750px;
+    margin: 2rem auto;
+  }
+  .about-text {
+    text-align: left;
+  }
+}
