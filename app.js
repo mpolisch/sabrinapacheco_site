@@ -30,9 +30,13 @@ const scriptSrcUrls = [
 const styleSrcUrls = [
   "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/", // Bootstrap
   "https://ka-f.fontawesome.com",
+  "https://fonts.googleapis.com",
 ];
 
-const fontSrcUrls = ["https://ka-f.fontawesome.com"];
+const fontSrcUrls = [
+  "https://ka-f.fontawesome.com",
+  "https://fonts.gstatic.com",
+];
 
 app.use(
   helmet.contentSecurityPolicy({
