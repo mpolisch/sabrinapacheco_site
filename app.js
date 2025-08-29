@@ -1,8 +1,6 @@
 const express = require("express");
 const ejsMate = require("ejs-mate");
 const bodyParser = require("body-parser");
-const session = require("express-session");
-const flash = require("connect-flash");
 const path = require("path");
 const helmet = require("helmet");
 require("dotenv").config();
@@ -20,21 +18,9 @@ if (process.env.NODE_ENV === "production") {
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.use(helmet());
-app.use(bodyParser.urlencoded({ extended: false }));
-
-app.use(
-  session({
-    secret: process.env.SESSION_SECRET,
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-    },
-  })
-);
-app.use(flash());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: false }));
 
 const scriptSrcUrls = [
   "https://kit.fontawesome.com/", // FA kit
@@ -67,12 +53,6 @@ app.use(
     },
   })
 );
-
-app.use((req, res, next) => {
-  res.locals.success = req.flash("success");
-  res.locals.error = req.flash("error");
-  next();
-});
 
 app.set("views", path.join(__dirname, "views"));
 

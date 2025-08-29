@@ -3,8 +3,6 @@ const router = express.Router();
 const nodemailer = require("nodemailer");
 const limiter = require("../middleware/rateLimiter")
 
-router.use('/contact', limiter);
-
 router.get("/contact", (req, res) => {
   res.render("contact", {
     extraStyles: ["contact.css"],
@@ -17,8 +15,10 @@ router.post("/send", limiter, async (req, res) => {
   if (phone) return res.status(400).redirect("/contact");
 
   if (!name || !email || !message) {
-    req.flash("error", "All fields are required.");
-    return res.redirect("/contact")
+    return res.status(400).json({
+      success: false,
+      message: "All fields are required."
+    });
   }
 
   try {
@@ -39,12 +39,16 @@ router.post("/send", limiter, async (req, res) => {
 
     await transporter.sendMail(mailOptions);
 
-    req.flash("success", "Message sent successfully!");
-    res.redirect("/contact");
+    res.status(200).json({
+      success: true,
+      message: "Message sent successfully!"
+    })
   } catch (error) {
     console.log(error);
-    req.flash("error", "Error sending message. Please try again.");
-    res.redirect("/contact");
+    res.status(500).json({
+      success: false,
+      message: "Error sending message. Please try again."
+    })
   }
 });
 

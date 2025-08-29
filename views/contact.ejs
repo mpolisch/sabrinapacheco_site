@@ -1,10 +1,6 @@
 <% layout('layouts/boilerplate') %>
 <h1 class="contact-title">Contact</h1>
-<% if (success.length > 0) { %>
-<div class="alert alert-success" role="alert"><%= success %></div>
-<% } %> <% if (error.length > 0) { %>
-<div class="alert alert-danger" role="alert"><%= error %></div>
-<% } %>
+<div id="formMessage" class="form-message"></div>
 <div class="fa-container">
   <a
     href="https://www.instagram.com/sabripachh/"
@@ -24,10 +20,41 @@
 
 <p class="contact-text">Email: sabripach.styling@gmail.com</p>
 
-<form action="/send" method="POST" class="form-box">
+<form id="contactForm" action="/send" method="POST" class="form-box">
   <input type="text" name="name" placeholder="Name" required />
   <input type="email" name="email" placeholder="Email" required />
   <textarea name="message" rows="5" placeholder="Message" required></textarea>
   <input type="text" name="phone" style="display: none" />
   <button type="submit" class="btn btn-primary">Send</button>
 </form>
+
+<script>
+  const form = document.getElementById("contactForm");
+  const messageDiv = document.getElementById("formMessage");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); // prevent default form submission
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/send", {
+        // make sure the URL matches your POST route
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const result = await res.json();
+
+      messageDiv.textContent = result.message;
+      messageDiv.classList.remove("success", "error");
+      messageDiv.classList.add(result.success ? "success" : "error");
+      messageDiv.style.display = "block";
+
+      if (result.success) form.reset();
+    } catch (err) {
+      messageDiv.textContent = "Unexpected error. Please try again.";
+      messageDiv.style.color = "red";
+    }
+  });
+</script>
