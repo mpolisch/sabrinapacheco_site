@@ -55,7 +55,8 @@
   margin-bottom: 2rem;
 }
 
-.alert {
+.form-message {
+  display: none;
   max-width: 700px; /* keep it centered and not full width */
   margin: 0 auto 20px auto; /* center + spacing */
   padding: 14px 20px;
@@ -68,13 +69,13 @@
   position: relative;
 }
 
-.alert.success {
+.form-message.success {
   background-color: #e9f8f0;
   color: #1a7f44;
   border: 1px solid #a8e5c1;
 }
 
-.alert.error {
+.form-message.error {
   background-color: #fdeaea;
   color: #a33a3a;
   border: 1px solid #f5b2b2;
