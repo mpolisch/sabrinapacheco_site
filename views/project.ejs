@@ -1,10 +1,10 @@
 <% layout('layouts/boilerplate') %>
-<div class="text-wrapper">
+<div class="text-wrapper reveal">
   <h1 class="sub-work-title"><%= project.display %></h1>
 
   <%- project.description && `<p class="sub-work-desc">${project.description}</p>` %>
 </div>
-<div class="image-grid">
+<div class="image-grid reveal">
 
   <% project.images.forEach(item => { %>
     <div class="image-wrapper">
