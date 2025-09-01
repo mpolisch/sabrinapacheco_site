@@ -3,7 +3,6 @@
   margin: 0 auto;
   font-size: 1rem;
   line-height: 1.6;
-  text-align: justify;
 }
 
 .about-title {
@@ -25,5 +24,6 @@
   }
   .about-text {
     text-align: left;
+    width: 75%;
   }
 }
