@@ -16,8 +16,10 @@
   margin: 0 2rem;
 }
 
-.fa-links:hover {
-  color: #007bff; /* Bootstrap's primary blue color or any blue you'd like */
+@media (hover: hover) {
+  .fa-links:hover {
+    color: #007bff; /* Bootstrap's primary blue color or any blue you'd like */
+  }
 }
 
 /* You can also keep the blue color even when the icon is focused or clicked */

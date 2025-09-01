@@ -1,6 +1,11 @@
 <% layout('layouts/boilerplate') %>
-<h1 class="sub-work-title reveal"><%= workType.charAt(0).toUpperCase() + workType.slice(1) %></h1>
-<div class="image-grid">
+<h1 class="sub-work-title reveal">
+  <%= workType
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1)) 
+        .join(' ')
+  %>
+</h1><div class="image-grid">
 
   <% workData.forEach(item => { %>
     <a href="<%= workType %>/<%= item.href %>">

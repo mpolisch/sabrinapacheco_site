@@ -19,7 +19,7 @@
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .image-wrapper img {
@@ -27,10 +27,6 @@
   width: 100%;
   height: auto;
   transition: transform 0.4s ease;
-}
-
-.image-wrapper:hover img {
-  transform: scale(1.05);
 }
 
 .sub-work-img {
@@ -45,8 +41,13 @@
   pointer-events: none;
 }
 
-.image-wrapper:hover .sub-work-img {
-  background-color: rgba(0, 0, 0, 0.2);
+@media (hover: hover) {
+  .image-wrapper:hover img {
+    transform: scale(1.05);
+  }
+  .image-wrapper:hover .sub-work-img {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (max-width: 1026px) {
@@ -64,5 +65,9 @@
 
   .image-grid img {
     margin-bottom: 2rem;
+  }
+
+  .image-wrapper {
+    margin-bottom: 0;
   }
 }
