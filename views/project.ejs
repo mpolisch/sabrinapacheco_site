@@ -1,13 +1,12 @@
 <% layout('layouts/boilerplate') %>
-<div class="text-wrapper reveal">
-  <h1 class="sub-work-title"><%= project.display %></h1>
+<div class="text-wrapper">
+  <h1 class="sub-work-title reveal"><%= project.display %></h1>
 
-  <%- project.description && `<p class="sub-work-desc">${project.description}</p>` %>
+  <%- project.description && `<p class="sub-work-desc reveal">${project.description}</p>` %>
 </div>
-<div class="image-grid reveal">
-
+<div class="image-grid">
   <% project.images.forEach(item => { %>
-    <div class="image-wrapper">
+    <div class="image-wrapper reveal">
         <div class="sub-work-img no-hover"></div>
         <img src="<%= item %>" alt="">
     </div>
