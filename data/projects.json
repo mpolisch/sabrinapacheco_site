@@ -24,7 +24,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754615971/Sabrina%20Pacheco/Fabrication/Ocean%20Wonders%20Vignette/_MG_1363_nwipyg.jpg"
         ],
         "display": "Ocean Wonders Vignette",
-        "description": "For our final year-end show, our group was assigned the theme ‘Water’ within the four elements. We created ‘Ocean Wonders,’ an interactive, sustainable display featuring coral and ocean-inspired structures made entirely from recycled materials such as paper, toilet paper rolls, paper towel tubes, and mesh nets. The project transformed everyday recycled materials into an immersive ocean-themed experience. Collaborators: Caitlyn Millares, Dalya Jabr, Chloe Ting.”"
+        "description": "For our final year-end show, our group was assigned the theme ‘Water’ within the four elements. We created ‘Ocean Wonders,’ an interactive, sustainable display featuring coral and ocean-inspired structures made entirely from recycled materials such as paper, toilet paper rolls, paper towel tubes, and mesh nets. The project transformed everyday recycled materials into an immersive ocean-themed experience.",
+        "collaborators": "Caitlyn Millares, Dalya Jabr, Chloe Ting."
       },
       {
         "href": "ordinary-flatpack",
@@ -34,7 +35,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747756273/Sabrina%20Pacheco/Fabrication/The%20Ordinary%20Flatpack/IMG_1438_cuxgiz.jpg"
         ],
         "display": "The Ordinary Flatpack",
-        "description": "A custom made flatpack made for products from The Ordinary"
+        "description": "A custom made flatpack made for products from The Ordinary",
+        "collaborators": null
       },
       {
         "href": "stussy-miniature-set",
@@ -46,7 +48,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754615887/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/7_gznfvb.png"
         ],
         "display": "Stussy Miniature Set",
-        "description": "Awarded first place for excellence in trade show design, this project involved designing a 1:24 scale miniature model for Stussy, a skate and surf lifestyle brand, featuring an interactive, outdoor-inspired layout for easy viewing from all sides. Cohesive signage and carefully placed elements enhanced brand representation, with supporting process work such as mood boards and sketches illustrating the development of the final miniature."
+        "description": "Awarded first place for excellence in trade show design, this project involved designing a 1:24 scale miniature model for Stussy, a skate and surf lifestyle brand, featuring an interactive, outdoor-inspired layout for easy viewing from all sides. Cohesive signage and carefully placed elements enhanced brand representation, with supporting process work such as mood boards and sketches illustrating the development of the final miniature.",
+        "collaborators": null
       },
       {
         "href": "cocktail-hour",
@@ -54,7 +57,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754616164/Sabrina%20Pacheco/Fabrication/Martini%20Lamp/IMG_0288_ll1uab.jpg"
         ],
         "display": "Cocktail Hour",
-        "description": "I aimed to recreate the timeless charm of the David Krys Vintage Olive Martini Lamp from the 1990s. Inspired by its playful martini glass design with a suspended olive, I researched the original and utilized modern fabrication techniques like welding, aluminum wire shaping, ping pong balls for detailing, LED lights for illumination, and clay to successfully recreate this iconic masterpiece."
+        "description": "I aimed to recreate the timeless charm of the David Krys Vintage Olive Martini Lamp from the 1990s. Inspired by its playful martini glass design with a suspended olive, I researched the original and utilized modern fabrication techniques like welding, aluminum wire shaping, ping pong balls for detailing, LED lights for illumination, and clay to successfully recreate this iconic masterpiece.",
+        "collaborators": null
       },
       {
         "href": "key-to-scarlet",
@@ -64,7 +68,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747754798/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/dteail2prop_dpld1t.jpg"
         ],
         "display": "Key to Scarlet",
-        "description": "This hanging 2D Prop draws its inspiration from Petah Coyne’s sculpture, “Miss Scarlet” infusing it with a delicate and ethereal charm. Crafted with meticulous attention to detail, this piece captures the essence of femininity and grace using materials such as pearls, yarn, bows, crystals, tissue paper, and flowers."
+        "description": "This hanging 2D Prop draws its inspiration from Petah Coyne’s sculpture, “Miss Scarlet” infusing it with a delicate and ethereal charm. Crafted with meticulous attention to detail, this piece captures the essence of femininity and grace using materials such as pearls, yarn, bows, crystals, tissue paper, and flowers.",
+        "collaborators": null
       }
     ],
     "visual-merchandising": [
@@ -79,15 +84,39 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747754400/Sabrina%20Pacheco/Merchandising/Jean-Michel%20Basquiat/JMB_ladder_vgqbzi.jpg"
         ],
         "display": "Jean-Michel Basquiat",
-        "description": "This installation is inspired by Jean Michael Basquiat, an American artist known for his neo-expressionism style paintings from the 1980s. This is a recreation of Basquiat’s art studio, which brings the viewer into the process and mind of Basquiat while showcasing some of his most popular works. Alongside his works, are items that influenced his art, which includes music, books and artists. These inspirations include Beat Bop by Rammellzee and K-Rob, produced by Basquiat (1983), Afro album by Dizzy Gillespie (1954) and Gray’s Anatomy book by Henry Gray and Henry Carter (1858). There is also a cigarette box to represent one of the items Basquiat had in his art studio. The artworks in this installation are inspired by Dos Cabezas (1982), Untitled (Skull, 1981), Pez Dispenser (1984), (Anti) Product Postcards (1980), Untitled (L.A. Painting) (1982) and Rare Pop Art Postcards (circa. 1980).\nCollaborators:\nCaitlyn Millares, Fabrizio Laratta"
+        "description": "This installation is inspired by Jean Michael Basquiat, an American artist known for his neo-expressionism style paintings from the 1980s. This is a recreation of Basquiat’s art studio, which brings the viewer into the process and mind of Basquiat while showcasing some of his most popular works. Alongside his works, are items that influenced his art, which includes music, books and artists. These inspirations include Beat Bop by Rammellzee and K-Rob, produced by Basquiat (1983), Afro album by Dizzy Gillespie (1954) and Gray’s Anatomy book by Henry Gray and Henry Carter (1858). There is also a cigarette box to represent one of the items Basquiat had in his art studio.",
+        "collaborators": "Caitlyn Millares, Fabrizio Laratta"
       },
       {
         "href": "honey-nut-cheerios",
         "images": [
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747762000/Sabrina%20Pacheco/Merchandising/Honey%20Nut%20Cheerios/cheeriowindow_kebp3i.jpg"
         ],
-        "display": "Honey Nut Cheerios",
-        "description": "In this window display concept, we raised awareness about the critical issue of bee conservation while showcasing Cheerios’ commitment to sustainability. By creating a visually striking and educational display centered around the importance of bees, I seek to inspire individuals to take action and support efforts to protect vital pollinators."
+        "display": "Honey Nut Cheerios - Bring Back the Bees",
+        "description": "In this window display concept, we raised awareness about the critical issue of bee conservation while showcasing Cheerios’ commitment to sustainability. By creating a visually striking and educational display centered around the importance of bees, I seek to inspire individuals to take action and support efforts to protect vital pollinators.",
+        "collaborators": "Courtney Turnbull"
+      },
+      {
+        "href": "front-door-display",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868598/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6101_b7vc8k.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868602/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6134_omiyxh.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868596/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6131_peecgo.jpg"
+        ],
+        "display": "Best of Front Door Display – Regional Winner",
+        "description": "Each quarter, The Brick hosts a Best of Front Door Display competition for Visual Merchandisers across the region. My display for the theme “Lux Living” won and was selected and featured, highlighting my ability to create impactful eye catching on theme entryway presentations.",
+        "collaborators": null
+      },
+      {
+        "href": "pod-display",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868598/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6101_b7vc8k.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868602/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6134_omiyxh.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868596/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6131_peecgo.jpg"
+        ],
+        "display": "Pod Display",
+        "description": null,
+        "collaborators": null
       }
     ],
     "styling": [
@@ -99,7 +128,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754616130/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/SolDeJaneiro_Moodboard-removebg-preview_fv5q0f.png"
         ],
         "display": "Tropic Temptations",
-        "description": "CREATIVE DIRECTION / STYLING: Sabrina Pacheco PHOTOGRAPHER: Jay Lolli"
+        "description": null,
+        "collaborators": "Jay Lolli"
       },
       {
         "href": "pomegranate",
@@ -108,7 +138,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0029_1_copy_zmdst0.jpg"
         ],
         "display": "A Pomegranate & Pearl Styling Affair",
-        "description": null
+        "description": null,
+        "collaborators": null
       },
       {
         "href": "earthly-reverie",
@@ -119,7 +150,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1751906152/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/EARTH_SHOT_4_page-0001_wgguxn.jpg"
         ],
         "display": "Earthly Reverie - A Dreamy Euphoria",
-        "description": "Earthly Reverie is a photoshoot concept that captures the ethereal beauty of the elements of Earth. It is inspired by the serene and enchanting aspects of nature. The goal of this photoshoot was to create a series of visually beautiful photographs that invites the viewer to escape into another world of serenity, where the beauty of nature is embraced."
+        "description": "Earthly Reverie is a photoshoot concept that captures the ethereal beauty of the elements of Earth. It is inspired by the serene and enchanting aspects of nature. The goal of this photoshoot was to create a series of visually beautiful photographs that invites the viewer to escape into another world of serenity, where the beauty of nature is embraced.",
+        "collaborators": null
       },
       {
         "href": "watermelon-blossom",
@@ -128,7 +160,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1754616455/Sabrina%20Pacheco/Styling/Glow%20Recipe/watermelon_glow_zzzkdr.jpg"
         ],
         "display": "Watermelon Blossom",
-        "description": "PHOTOGRAPHY, CREATIVE DIRECTION & STYLING: Sabrina Pacheco"
+        "description": null,
+        "collaborators": null
       },
       {
         "href": "jnco-and-silver",
@@ -136,7 +169,8 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747763192/Sabrina%20Pacheco/Styling/JNCO%20and%20Silver/Pacheco_Sabrina_Lab3_Stack_nuyxou.jpg"
         ],
         "display": "JNCO & Silver",
-        "description": null
+        "description": null,
+        "collaborators": null
       }
     ]
   }

@@ -1,16 +1,12 @@
 .sub-work-title {
   margin-bottom: 3rem;
   font-weight: bold;
-  margin-left: 3rem;
 }
 
 .sub-work-desc {
   font-size: 1rem;
-  max-width: 750px;
-  margin-bottom: 3rem;
-  margin-left: auto;
+  margin-left: 3rem;
   line-height: 1.6;
-  margin-right: 3rem;
   white-space: pre-line;
 }
 
@@ -18,6 +14,28 @@
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
+  margin: 0 3rem;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+
+.text-title {
+  flex: 1;
+  max-width: 50%;
+}
+
+.text-body {
+  max-width: 50%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-work-collabs {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 0.6rem;
+  text-align: left;
 }
 
 .image-grid {
@@ -60,16 +78,26 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 0rem;
+  }
+
+  .text-title,
+  .text-body {
+    max-width: 100%;
   }
 
   .sub-work-title {
-    margin: auto 1rem 1rem 1rem;
+    margin: auto 0rem 0.5rem 0rem;
     font-size: 1.5rem;
   }
 
   .sub-work-desc {
     max-width: 100%;
-    margin: auto 1rem 2rem 1rem;
+    margin: auto 0rem 0.8rem 0rem;
+  }
+
+  .sub-work-collabs {
+    margin-bottom: 1.3rem;
   }
 
   .image-grid {
