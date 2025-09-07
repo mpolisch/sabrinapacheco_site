@@ -88,13 +88,16 @@
         "collaborators": "Caitlyn Millares, Fabrizio Laratta"
       },
       {
-        "href": "honey-nut-cheerios",
+        "href": "pod-display",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1747762000/Sabrina%20Pacheco/Merchandising/Honey%20Nut%20Cheerios/cheeriowindow_kebp3i.jpg"
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757266571/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6589_hsr7ht.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756869357/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6619_udq1rd.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756869342/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6613_zzlptz.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756869357/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6611_znggbs.jpg"
         ],
-        "display": "Honey Nut Cheerios - Bring Back the Bees",
-        "description": "In this window display concept, we raised awareness about the critical issue of bee conservation while showcasing Cheerios’ commitment to sustainability. By creating a visually striking and educational display centered around the importance of bees, I seek to inspire individuals to take action and support efforts to protect vital pollinators.",
-        "collaborators": "Courtney Turnbull"
+        "display": "Pod Display",
+        "description": null,
+        "collaborators": null
       },
       {
         "href": "front-door-display",
@@ -108,14 +111,34 @@
         "collaborators": null
       },
       {
-        "href": "pod-display",
+        "href": "honey-nut-cheerios",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868598/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6101_b7vc8k.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868602/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6134_omiyxh.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1756868596/Sabrina%20Pacheco/Merchandising/Front%20Door%20Display/IMG_6131_peecgo.jpg"
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1747762000/Sabrina%20Pacheco/Merchandising/Honey%20Nut%20Cheerios/cheeriowindow_kebp3i.jpg"
         ],
-        "display": "Pod Display",
-        "description": null,
+        "display": "Honey Nut Cheerios - Bring Back the Bees",
+        "description": "In this window display concept, we raised awareness about the critical issue of bee conservation while showcasing Cheerios’ commitment to sustainability. By creating a visually striking and educational display centered around the importance of bees, I seek to inspire individuals to take action and support efforts to protect vital pollinators.",
+        "collaborators": "Courtney Turnbull"
+      },
+      {
+        "href": "life-is-messy",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757268319/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7942_gnrez7.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757268321/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7941_cjktuc.jpg"
+        ],
+        "display": "Set Design with Kortney Wilson - Life is Messy",
+        "description": "I had the opportunity to contribute to The Brick’s collaboration with designer Kortney Wilson, where I worked on set design alongside other Visual Merchandisers. My role included styling and arranging key pieces to showcase welcoming displays that highlighted the featured furniture and decor. This project was a great opportunity to combine creative styling with brand direction and collaborate with both the design team and external partners.",
+        "collaborators": null
+      },
+      {
+        "href": "seasonal-signage",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757267161/Sabrina%20Pacheco/Merchandising/Seasonal%20Signage/IMG_8374_pxzjj5.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757267157/Sabrina%20Pacheco/Merchandising/Seasonal%20Signage/IMG_8390_mksavt.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757267158/Sabrina%20Pacheco/Merchandising/Seasonal%20Signage/IMG_8378_h7wbwp.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757267156/Sabrina%20Pacheco/Merchandising/Seasonal%20Signage/IMG_8380_hiphju.jpg"
+        ],
+        "display": "Seasonal Signage",
+        "description": "For The Brick’s May Tent Sale, I designed mega tags inspired by ‘April Showers Bring Mayflowers.’ Using vibrant faux flowers to wrap each tag instead of traditional décor, the floral approach adds a natural, inviting touch that connects the seasonal theme to the shopping experience, encouraging interaction and enhancing overall visual appeal.",
         "collaborators": null
       }
     ],
@@ -169,6 +192,15 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747763192/Sabrina%20Pacheco/Styling/JNCO%20and%20Silver/Pacheco_Sabrina_Lab3_Stack_nuyxou.jpg"
         ],
         "display": "JNCO & Silver",
+        "description": null,
+        "collaborators": null
+      },
+      {
+        "href": "bookshelf",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756867198/Sabrina%20Pacheco/Styling/Bookshelf/IMG_5425_b5uxeu.jpg"
+        ],
+        "display": "Bookshelf Styling",
         "description": null,
         "collaborators": null
       }
