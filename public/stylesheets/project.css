@@ -86,7 +86,6 @@
   display: block;
   width: 100%;
   height: auto;
-  border: 1px solid #ddd;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
@@ -100,6 +99,19 @@
   transition: background-color 0.3s ease;
   z-index: 1;
   pointer-events: none;
+}
+
+.btn-wrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.back-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 1026px) {

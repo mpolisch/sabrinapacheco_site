@@ -5,27 +5,37 @@
 }
 
 .fa-container {
-  text-align: center;
-  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
+/* .fa-container::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 1.5rem;
+} */
+
 .fa-links {
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Keeps the icon color the same */
+  text-decoration: none;
+  color: inherit;
   text-align: center;
   margin: 0 2rem;
 }
 
 @media (hover: hover) {
   .fa-links:hover {
-    color: #007bff; /* Bootstrap's primary blue color or any blue you'd like */
+    color: #007bff;
+    transform: scale(1.05);
   }
 }
 
-/* You can also keep the blue color even when the icon is focused or clicked */
 .fa-links:focus,
 .fa-links:active {
-  color: #007bff; /* Keeps it blue when focused or active */
+  color: #007bff;
 }
 
 .form-box {
@@ -54,13 +64,13 @@
 
 .contact-text {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-message {
   display: none;
-  max-width: 700px; /* keep it centered and not full width */
-  margin: 0 auto 20px auto; /* center + spacing */
+  max-width: 700px;
+  margin: 0 auto 20px auto;
   padding: 14px 20px;
   border-radius: 8px;
   font-size: 15px;

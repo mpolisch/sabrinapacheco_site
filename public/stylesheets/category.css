@@ -24,7 +24,6 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 3rem;
-  border: 1px solid #ddd;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,6 +44,18 @@
   transition: background-color 0.4s ease;
   z-index: 1;
   pointer-events: none;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.back-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 @media (hover: hover) {
