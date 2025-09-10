@@ -25,7 +25,8 @@
         ],
         "display": "Ocean Wonders Vignette",
         "description": "For our final year-end show, our group was assigned the theme ‘Water’ within the four elements. We created ‘Ocean Wonders,’ an interactive, sustainable display featuring coral and ocean-inspired structures made entirely from recycled materials such as paper, toilet paper rolls, paper towel tubes, and mesh nets. The project transformed everyday recycled materials into an immersive ocean-themed experience.",
-        "collaborators": "Caitlyn Millares, Dalya Jabr, Chloe Ting."
+        "collaborators": "Caitlyn Millares, Dalya Jabr, Chloe Ting.",
+        "subtitle": "Sheridan College"
       },
       {
         "href": "ordinary-flatpack",
@@ -36,7 +37,8 @@
         ],
         "display": "The Ordinary Flatpack",
         "description": "A custom made flatpack made for products from The Ordinary",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "stussy-miniature-set",
@@ -49,7 +51,8 @@
         ],
         "display": "Stussy Miniature Set",
         "description": "Awarded first place for excellence in trade show design, this project involved designing a 1:24 scale miniature model for Stussy, a skate and surf lifestyle brand, featuring an interactive, outdoor-inspired layout for easy viewing from all sides. Cohesive signage and carefully placed elements enhanced brand representation, with supporting process work such as mood boards and sketches illustrating the development of the final miniature.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "cocktail-hour",
@@ -58,18 +61,21 @@
         ],
         "display": "Cocktail Hour",
         "description": "I aimed to recreate the timeless charm of the David Krys Vintage Olive Martini Lamp from the 1990s. Inspired by its playful martini glass design with a suspended olive, I researched the original and utilized modern fabrication techniques like welding, aluminum wire shaping, ping pong balls for detailing, LED lights for illumination, and clay to successfully recreate this iconic masterpiece.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "key-to-scarlet",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1747754797/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/thumbnail_IMG_9712_btftlb.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1747754797/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/detailprop1_bzfpcm.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1747754798/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/dteail2prop_dpld1t.jpg"
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756866642/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/IMG_9686_pgsu0g.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756866639/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/IMG_9770_1_thv9lk.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756866644/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/IMG_9771_1_jliuzw.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1756866641/Sabrina%20Pacheco/Fabrication/2D%20Prop%20Challenge/IMG_9703_1_apmrhz.jpg"
         ],
         "display": "Key to Scarlet",
         "description": "This hanging 2D Prop draws its inspiration from Petah Coyne’s sculpture, “Miss Scarlet” infusing it with a delicate and ethereal charm. Crafted with meticulous attention to detail, this piece captures the essence of femininity and grace using materials such as pearls, yarn, bows, crystals, tissue paper, and flowers.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       }
     ],
     "visual-merchandising": [
@@ -84,8 +90,9 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/v1747754400/Sabrina%20Pacheco/Merchandising/Jean-Michel%20Basquiat/JMB_ladder_vgqbzi.jpg"
         ],
         "display": "Jean-Michel Basquiat",
-        "description": "This installation is inspired by Jean Michael Basquiat, an American artist known for his neo-expressionism style paintings from the 1980s. This is a recreation of Basquiat’s art studio, which brings the viewer into the process and mind of Basquiat while showcasing some of his most popular works. Alongside his works, are items that influenced his art, which includes music, books and artists. These inspirations include Beat Bop by Rammellzee and K-Rob, produced by Basquiat (1983), Afro album by Dizzy Gillespie (1954) and Gray’s Anatomy book by Henry Gray and Henry Carter (1858). There is also a cigarette box to represent one of the items Basquiat had in his art studio.",
-        "collaborators": "Caitlyn Millares, Fabrizio Laratta"
+        "description": "This installation is inspired by Jean Michael Basquiat, an American artist known for his neo-expressionism style paintings from the 1980s. This is a recreation of Basquiat’s art studio, which brings the viewer into the process and mind of Basquiat while showcasing some of his most popular works.",
+        "collaborators": "Caitlyn Millares, Fabrizio Laratta",
+        "subtitle": "Sheridan College"
       },
       {
         "href": "pod-display",
@@ -97,7 +104,8 @@
         ],
         "display": "Pod Display",
         "description": null,
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "The Brick"
       },
       {
         "href": "front-door-display",
@@ -108,7 +116,8 @@
         ],
         "display": "Best of Front Door Display – Regional Winner",
         "description": "Each quarter, The Brick hosts a Best of Front Door Display competition for Visual Merchandisers across the region. My display for the theme “Lux Living” won and was selected and featured, highlighting my ability to create impactful eye catching on theme entryway presentations.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "The Brick"
       },
       {
         "href": "honey-nut-cheerios",
@@ -117,17 +126,21 @@
         ],
         "display": "Honey Nut Cheerios - Bring Back the Bees",
         "description": "In this window display concept, we raised awareness about the critical issue of bee conservation while showcasing Cheerios’ commitment to sustainability. By creating a visually striking and educational display centered around the importance of bees, I seek to inspire individuals to take action and support efforts to protect vital pollinators.",
-        "collaborators": "Courtney Turnbull"
+        "collaborators": "Courtney Turnbull",
+        "subtitle": "Sheridan College"
       },
       {
         "href": "life-is-messy",
         "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757270667/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7903_rlutmt.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757270593/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7941_cjktuc.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/v1757268319/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7942_gnrez7.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/v1757268321/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7941_cjktuc.jpg"
+          "https://res.cloudinary.com/doofnvidt/image/upload/v1757270667/Sabrina%20Pacheco/Merchandising/Kortney%20Wilson/IMG_7864_dddolh.jpg"
         ],
         "display": "Set Design with Kortney Wilson - Life is Messy",
         "description": "I had the opportunity to contribute to The Brick’s collaboration with designer Kortney Wilson, where I worked on set design alongside other Visual Merchandisers. My role included styling and arranging key pieces to showcase welcoming displays that highlighted the featured furniture and decor. This project was a great opportunity to combine creative styling with brand direction and collaborate with both the design team and external partners.",
-        "collaborators": null
+        "collaborators": " Kelly Coltman, Dalya Jabr",
+        "subtitle": "The Brick"
       },
       {
         "href": "seasonal-signage",
@@ -139,7 +152,8 @@
         ],
         "display": "Seasonal Signage",
         "description": "For The Brick’s May Tent Sale, I designed mega tags inspired by ‘April Showers Bring Mayflowers.’ Using vibrant faux flowers to wrap each tag instead of traditional décor, the floral approach adds a natural, inviting touch that connects the seasonal theme to the shopping experience, encouraging interaction and enhancing overall visual appeal.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "The Brick"
       }
     ],
     "styling": [
@@ -152,7 +166,8 @@
         ],
         "display": "Tropic Temptations",
         "description": null,
-        "collaborators": "Jay Lolli"
+        "collaborators": "Jay Lolli",
+        "subtitle": "Sheridan College"
       },
       {
         "href": "pomegranate",
@@ -162,7 +177,8 @@
         ],
         "display": "A Pomegranate & Pearl Styling Affair",
         "description": null,
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "earthly-reverie",
@@ -174,7 +190,8 @@
         ],
         "display": "Earthly Reverie - A Dreamy Euphoria",
         "description": "Earthly Reverie is a photoshoot concept that captures the ethereal beauty of the elements of Earth. It is inspired by the serene and enchanting aspects of nature. The goal of this photoshoot was to create a series of visually beautiful photographs that invites the viewer to escape into another world of serenity, where the beauty of nature is embraced.",
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "watermelon-blossom",
@@ -184,7 +201,8 @@
         ],
         "display": "Watermelon Blossom",
         "description": null,
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "jnco-and-silver",
@@ -193,7 +211,8 @@
         ],
         "display": "JNCO & Silver",
         "description": null,
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "Sheridan College"
       },
       {
         "href": "bookshelf",
@@ -202,7 +221,8 @@
         ],
         "display": "Bookshelf Styling",
         "description": null,
-        "collaborators": null
+        "collaborators": null,
+        "subtitle": "The Brick"
       }
     ]
   }

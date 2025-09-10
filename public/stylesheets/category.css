@@ -16,10 +16,16 @@
   object-fit: cover;
 }
 
+.image-grid a {
+  display: inline-block;
+}
+
 .image-wrapper {
   position: relative;
   overflow: hidden;
   margin-bottom: 3rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .image-wrapper img {

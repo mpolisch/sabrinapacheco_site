@@ -2,11 +2,12 @@
 <div class="text-wrapper">
   <div class="text-title">
     <h1 class="sub-work-title reveal"><%= project.display %></h1>
+    <h2 class="sub-work-subtitle reveal"><%= project.subtitle%></h2>
   </div>
 
   <div class="text-body">
     <%- project.description && `<p class="sub-work-desc reveal">${project.description}</p>` %>
-    <%- project.collaborators && `<p class="sub-work-collabs reveal"><b>Collaborators:</b> ${project.collaborators}</p>` %>
+    <%- project.collaborators && `<p class="sub-work-collabs reveal"><strong>Collaborators:</strong> ${project.collaborators}</p>` %>
   </div>
 </div>
 <div class="image-grid">
