@@ -24,7 +24,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 3rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
 }
 
 .image-wrapper img {
@@ -85,6 +85,7 @@
   }
 
   .image-wrapper {
+    /* overflow: visible; */
     margin-bottom: 0;
   }
 }
