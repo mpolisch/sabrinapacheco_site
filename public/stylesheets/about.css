@@ -15,7 +15,7 @@
 .bio-img {
   width: 100%;
   margin: 0 0 2rem 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1026px) {
