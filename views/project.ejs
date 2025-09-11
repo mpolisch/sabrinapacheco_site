@@ -7,7 +7,11 @@
 
   <div class="text-body">
     <%- project.description && `<p class="sub-work-desc reveal">${project.description}</p>` %>
-    <%- project.collaborators && `<p class="sub-work-collabs reveal"><strong>Collaborators:</strong> ${project.collaborators}</p>` %>
+    <%- project.collaborators && `<p class="sub-work-collabs reveal">${project.collaborators}</p>` %>
+    <%- project.photographers && `<p class="sub-work-collabs reveal">${project.photographers}</p>` %>
+    <%- project.assistant && `<p class="sub-work-collabs reveal">${project.assistant}</p>` %>
+    <%- project.hmua && `<p class="sub-work-collabs reveal">${project.hmua}</p>` %>
+    <%- project.models && `<p class="sub-work-collabs reveal">${project.models}</p>` %>
   </div>
 </div>
 <div class="image-grid <%= project.images.length === 1 ? 'single-image' : '' %>">
