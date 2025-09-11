@@ -5,13 +5,14 @@
         .map(word => word.charAt(0).toUpperCase() + word.slice(1)) 
         .join(' ')
   %>
-</h1><div class="image-grid">
+</h1>
 
+<div class="image-grid">
   <% workData.forEach(item => { %>
     <a href="<%= workType %>/<%= item.href %>">
       <div class="image-wrapper reveal">
         <div class="sub-work-img"></div>
-          <img src="<%= item.coverimg %>" alt="" class="reveal">
+          <img src="<%= item.coverimg %>" alt="">
       </div>
     </a>
   <% }) %>

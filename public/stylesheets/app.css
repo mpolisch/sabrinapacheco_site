@@ -83,6 +83,12 @@ footer a:active {
   }
 }
 
+@media (max-width: 1026px) {
+  .img-wrapper {
+    box-shadow: none;
+  }
+}
+
 .center-text {
   text-align: center;
 }
