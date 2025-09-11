@@ -10,9 +10,9 @@
     <%- project.collaborators && `<p class="sub-work-collabs reveal"><strong>Collaborators:</strong> ${project.collaborators}</p>` %>
   </div>
 </div>
-<div class="image-grid">
+<div class="image-grid <%= project.images.length === 1 ? 'single-image' : '' %>">
   <% project.images.forEach(item => { %>
-    <div class="image-wrapper reveal">
+    <div class="image-wrapper reveal <%= project.images.length === 1 ? 'single-wrapper' : '' %>">
         <div class="sub-work-img no-hover"></div>
         <img src="<%= item %>" alt="">
     </div>
@@ -21,3 +21,39 @@
 <div class="btn-wrapper">
   <a href="/work/<%= work %>" class="btn btn-primary back-btn">Back</a>
 </div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="">
+</div>
+
+<script>
+  (function(){
+    const images = document.querySelectorAll('.image-wrapper img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.querySelector('.lightbox-img');
+    const closeBtn = document.querySelector('.lightbox .close');
+
+    images.forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('show'); // fade+zoom in
+        document.body.classList.add('no-scroll');
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove('show'); // fade+zoom out
+      document.body.classList.remove('no-scroll');
+      setTimeout(() => {
+        lightboxImg.src = ''; // reset image after animation
+      }, 300); // match CSS transition duration
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', e => {
+      if (e.target === lightbox) closeLightbox();
+    });
+  })();
+</script>
