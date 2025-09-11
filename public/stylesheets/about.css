@@ -3,7 +3,6 @@
   margin: 0 auto;
   font-size: 1rem;
   line-height: 1.6;
-  text-align: justify;
 }
 
 .about-title {
@@ -16,6 +15,7 @@
 .bio-img {
   width: 100%;
   margin: 0 0 2rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1026px) {
@@ -25,5 +25,6 @@
   }
   .about-text {
     text-align: left;
+    width: 75%;
   }
 }

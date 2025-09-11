@@ -1,22 +1,68 @@
 .sub-work-title {
-  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
-  margin-left: 3rem;
+  display: inline-block;
+}
+
+.sub-work-subtitle {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #555;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.sub-work-title::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 1.5rem;
 }
 
 .sub-work-desc {
-    font-size: 1rem;
-    max-width: 750px;
-    margin-bottom: 3rem;
-    margin-left: auto;
-    line-height: 1.6; 
-    margin-right: 3rem;
+  font-size: 1rem;
+  margin-left: 3rem;
+  line-height: 1.7;
+  white-space: pre-line;
 }
 
 .text-wrapper {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin: 0 3rem;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+
+.text-title {
+  flex: 1;
+  max-width: 50%;
+}
+
+.text-body {
+  max-width: 50%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-work-collabs {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 0.8rem;
+  color: #555;
+  text-align: left;
+}
+
+.sub-work-collabs strong {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #000;
 }
 
 .image-grid {
@@ -28,8 +74,17 @@
 .image-grid img {
   width: 100%;
   display: block;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   object-fit: cover;
+}
+
+.image-grid.single-image {
+  column-count: 1;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .image-wrapper {
@@ -37,9 +92,21 @@
 }
 
 .image-wrapper img {
+  cursor: pointer;
   display: block;
   width: 100%;
   height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image-wrapper.single-wrapper {
+  width: auto;
+}
+
+.image-wrapper.single-wrapper img {
+  width: auto;
+  max-height: 100vh;
+  display: block;
 }
 
 .sub-work-img {
@@ -51,36 +118,125 @@
   background-color: rgba(0, 0, 0, 0);
   transition: background-color 0.3s ease;
   z-index: 1;
-  pointer-events: none; /* So clicks pass through if needed */
+  pointer-events: none;
 }
 
-@media (max-width: 1026px){
+.btn-wrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
 
-    .text-wrapper {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+.back-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
 
-    .sub-work-title {
-        margin: auto 1rem 1rem 1rem;
-        font-size: 1.5rem;
-    }
+body.no-scroll {
+  overflow: hidden;
+  padding-right: 15px;
+}
 
-    .sub-work-desc {
-        max-width: 100%;
-        margin: auto 1rem 2rem 1rem;
-        text-align: justify;
-    }
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  backdrop-filter: blur(8px);
+  padding: 20px 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
 
-    .image-grid{
-        column-count: 1;
-        column-gap: 1rem;
-        padding: 0 1rem;
-    }
+.lightbox.show {
+  opacity: 1;
+  pointer-events: auto;
+}
 
-    .image-grid img {
-        margin-bottom: 2rem;
-    }
+.lightbox-img {
+  max-height: 90vh;
+  max-width: 90vw;
+  object-fit: contain;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
 
+.lightbox.show .lightbox-img {
+  transform: scale(1);
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 1026px) {
+  .text-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 0rem;
+  }
+
+  body.no-scroll {
+    padding-right: 0;
+  }
+
+  .text-title,
+  .text-body {
+    max-width: 100%;
+  }
+
+  .sub-work-title {
+    margin: auto 0rem 1.5rem 0rem;
+    font-size: 1.5rem;
+  }
+
+  .sub-work-subtitle {
+    margin-bottom: 0rem;
+  }
+
+  .sub-work-title::after {
+    content: none;
+  }
+
+  .sub-work-desc {
+    max-width: 100%;
+    margin: auto 0rem 1.3rem 0rem;
+  }
+
+  .sub-work-collabs {
+    margin-bottom: 1.3rem;
+    text-align: center;
+  }
+
+  .sub-work-collabs strong {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .image-grid {
+    column-count: 1;
+    column-gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .image-grid img {
+    margin-bottom: 2rem;
+  }
 }

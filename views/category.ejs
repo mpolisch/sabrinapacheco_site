@@ -1,13 +1,25 @@
 <% layout('layouts/boilerplate') %>
-<h1 class="sub-work-title reveal"><%= workType.charAt(0).toUpperCase() + workType.slice(1) %></h1>
-<div class="image-grid">
+<h1 class="sub-work-title reveal">
+  <%= workType
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1)) 
+        .join(' ')
+  %>
+</h1>
 
+<div class="image-grid">
   <% workData.forEach(item => { %>
-    <a href="<%= workType %>/<%= item.href %>">
-      <div class="image-wrapper reveal">
-        <div class="sub-work-img"></div>
-          <img src="<%= item.images[0] %>" alt="" class="reveal">
-      </div>
-    </a>
+      <a href="<%= workType %>/<%= item.href %>">
+        <div class="image-wrapper reveal">
+            <img src="<%= item.coverimg %>" alt="">
+          <div class="sub-work-img">
+            <h2><%= item.display %></h2>
+          </div>
+        </div>
+      </a>
   <% }) %>
+</div>
+
+<div class="btn-wrapper">
+  <a href="/work" class="btn btn-primary back-btn">Back</a>
 </div>
