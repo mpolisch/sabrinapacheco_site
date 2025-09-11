@@ -105,6 +105,7 @@
 
 .image-wrapper.single-wrapper img {
   width: auto;
+  max-width: 100%;
   max-height: 100vh;
   display: block;
 }
@@ -122,7 +123,7 @@
 }
 
 .btn-wrapper {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -200,6 +201,10 @@ body.no-scroll {
   .text-title,
   .text-body {
     max-width: 100%;
+  }
+
+  .btn-wrapper {
+    margin-top: 1rem;
   }
 
   .sub-work-title {
