@@ -20,7 +20,7 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615973/Sabrina%20Pacheco/Fabrication/Ocean%20Wonders%20Vignette/_MG_1398_oohtpq.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615972/Sabrina%20Pacheco/Fabrication/Ocean%20Wonders%20Vignette/_MG_1391_prirfm.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615971/Sabrina%20Pacheco/Fabrication/Ocean%20Wonders%20Vignette/_MG_1363_nwipyg.jpg"
-                ],
+        ],
         "display": "Ocean Wonders Vignette",
         "description": "For our final year-end show, our group was assigned the theme ‘Water’ within the four elements. We created ‘Ocean Wonders,’ an interactive, sustainable display featuring coral and ocean-inspired structures made entirely from recycled materials such as paper, toilet paper rolls, paper towel tubes, and mesh nets. The project transformed everyday recycled materials into an immersive ocean-themed experience.",
         "collaborators": "<strong>Collaborators:</strong> Caitlyn Millares, Dalya Jabr, Chloe Dong.",
@@ -43,16 +43,18 @@
         "href": "stussy-miniature-scale-model",
         "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615890/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0149_tdg2oo.jpg",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615888/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/Pacheco_Sabrina_Stussy_A2B_1_pvhgov.png",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615884/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/Pacheco_Sabrina_Stussy_A2A_crkqyo.png",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615887/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/7_gznfvb.png",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757902759/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0215_e7tyoh.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615890/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0149_tdg2oo.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757902771/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0157_knh9og.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757903001/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0093_ffxxpf.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757902773/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/IMG_0074_i0fdje.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615987/Sabrina%20Pacheco/Fabrication/Ocean%20Wonders%20Vignette/Awrad_Picture_btsqlk.jpg"
-                ],
+        ],
+        "process": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615888/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/Pacheco_Sabrina_Stussy_A2B_1_pvhgov.png",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615884/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/Pacheco_Sabrina_Stussy_A2A_crkqyo.png",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615887/Sabrina%20Pacheco/Fabrication/Stussy%20Miniature%20Set/7_gznfvb.png"
+        ],
         "display": "Stussy Miniature Scale Model",
         "description": "Awarded first place for excellence in trade show design, this project involved designing a 1:24 scale miniature model for Stussy, a skate and surf lifestyle brand, featuring an interactive, outdoor-inspired layout for easy viewing from all sides. Cohesive signage and carefully placed elements enhanced brand representation, with supporting process work such as mood boards and sketches illustrating the development of the final miniature.",
         "collaborators": null,
@@ -175,11 +177,13 @@
         "href": "tropic-temptations",
         "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1747761790/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/OFFICIALSOLDEHANIERO2_ksm1ub.jpg",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757621884/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/SolDeJaneiro_Moodboard-removebg-preview_fv5q0f.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294156/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/IMG_6993_z2zbgm.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/v1758294158/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/IMG_2187_qxkabw.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1747761791/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/OFFICIALSOLDEJANIERO1_okknzu.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1747761790/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/OFFICIALSOLDEHANIERO2_ksm1ub.jpg"
+        ],
+        "process": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757621884/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/SolDeJaneiro_Moodboard-removebg-preview_fv5q0f.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294156/Sabrina%20Pacheco/Styling/Sol%20de%20Janeiro/IMG_6993_z2zbgm.jpg"
         ],
         "display": "Tropic Temptations",
         "description": null,
@@ -190,13 +194,15 @@
         "href": "pomegranate",
         "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0031_2_copy_lznvix.jpg",
         "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0029_1_copy_zmdst0.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0031_2_copy_lznvix.jpg"
+        ],
+        "process": [
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757902621/Sabrina%20Pacheco/Styling/Pomegranate/Untitled_design_fyasjn.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294306/Sabrina%20Pacheco/Styling/Pomegranate/IMG_9646_uwdovh.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294304/Sabrina%20Pacheco/Styling/Pomegranate/IMG_9647_pb3tgv.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294302/Sabrina%20Pacheco/Styling/Pomegranate/IMG_9649_xkq5so.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294299/Sabrina%20Pacheco/Styling/Pomegranate/IMG_9651_ns8shs.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0029_1_copy_zmdst0.jpg",
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1754615810/Sabrina%20Pacheco/Styling/Pomegranate/040124_sabrinacreative0031_2_copy_lznvix.jpg"
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758294299/Sabrina%20Pacheco/Styling/Pomegranate/IMG_9651_ns8shs.jpg"
         ],
         "display": "A Pomegranate & Pearl Styling Affair",
         "description": null,
@@ -207,11 +213,13 @@
         "href": "earthly-reverie",
         "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1743121702/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/ftiskxfnohegxvovvhjd.jpg",
         "images": [
-          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758293860/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/IMG_2185_rdim18.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1743121702/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/ftiskxfnohegxvovvhjd.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1751906150/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/EARTHSHOT2_page-0001_hqowyn.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1751906152/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/EARTHSHOT1_page-0001_ehu4gf.jpg",
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1751906152/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/EARTH_SHOT_4_page-0001_wgguxn.jpg"
+        ],
+        "process": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1758293860/Sabrina%20Pacheco/Styling/Earth%20Photoshoot/IMG_2185_rdim18.jpg"
         ],
         "display": "Earthly Reverie - A Dreamy Euphoria",
         "description": "Earthly Reverie is a photoshoot concept that captures the ethereal beauty of the elements of Earth. It is inspired by the serene and enchanting aspects of nature. The goal of this photoshoot was to create a series of visually beautiful photographs that invites the viewer to escape into another world of serenity, where the beauty of nature is embraced.",
