@@ -22,6 +22,17 @@
     </div>
   <% }) %>
 </div>
+  <% if (project.process != null) { %>
+  <h2 class="process-work-title reveal">Process Work</h2>
+  <div class="image-grid <%= project.process.length === 1 ? 'single-image' : '' %>">
+      <% project.process.forEach(item => { %>
+      <div class="image-wrapper reveal <%= project.process.length === 1 ? 'single-wrapper' : '' %>">
+          <div class="sub-work-img no-hover"></div>
+          <img src="<%= item %>" alt="">
+      </div>
+    <% }) %>
+  </div>
+  <% } %>
 <div class="btn-wrapper">
   <a href="/work/<%= work %>" class="btn btn-primary back-btn">Back</a>
 </div>

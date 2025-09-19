@@ -1,4 +1,4 @@
-/* .about-text {
+.about-text {
   max-width: 100%;
   margin: 0 auto;
   font-size: 1rem;
@@ -13,7 +13,8 @@
 }
 
 .bio-img {
-  width: 100%;
+  /* width: 100%; */
+  max-height: 600px;
   margin: 0 0 2rem 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -27,37 +28,13 @@
     text-align: left;
     width: 75%;
   }
-} */
-
-.about-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
 }
 
-.about-title {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.about-text-container {
-  max-width: 800px;
-  margin: 0 auto 3rem auto;
-  text-align: center;
-}
-
-.about-text {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #333;
-}
-
-/* Gallery layout */
 .about-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 .about-gallery img {
