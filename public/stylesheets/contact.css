@@ -15,7 +15,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin: 5rem auto;
-  width: 50%;
+  width: 40%;
 }
 
 .about-gallery img {
