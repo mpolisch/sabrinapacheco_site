@@ -10,14 +10,21 @@
   margin-bottom: 2rem;
 }
 
-/* .fa-container::after {
-  content: "";
-  display: block;
-  width: 30%;
-  height: 1px;
-  background-color: #000;
-  margin-top: 1.5rem;
-} */
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 5rem auto;
+  width: 50%;
+}
+
+.about-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  /* margin: auto 3rem; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
 
 .fa-links {
   text-decoration: none;

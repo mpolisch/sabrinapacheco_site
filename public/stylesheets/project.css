@@ -30,23 +30,6 @@
   white-space: pre-line;
 }
 
-.process-work-title {
-  /* text-align: center; */
-  font-size: 2.5rem;
-  margin: 2rem 3rem;
-  font-weight: bold;
-  display: inline-block
-}
-
-.process-work-title::after {
-  content: "";
-  display: block;
-  width: 30%;
-  height: 1px;
-  background-color: #000;
-  margin-top: 1.5rem;
-}
-
 .text-wrapper {
   display: flex;
   gap: 1.5rem;
