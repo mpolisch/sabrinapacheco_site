@@ -53,7 +53,7 @@ footer a:active {
 
 .carousel-inner {
   overflow: visible;
-  margin: 1.25rem auto 0 auto;
+  margin: 2.5rem auto 0 auto;
   height: 59vh;
 }
 
@@ -77,6 +77,16 @@ footer a:active {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+.center-text {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1.3rem;
+}
+
 @media (hover: hover) {
   .carousel-item img:hover {
     filter: brightness(90%);
@@ -89,12 +99,8 @@ footer a:active {
   }
 }
 
-.center-text {
-  text-align: center;
-}
-
-.subtitle {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 20px;
+@media (max-width: 700px) {
+  .carousel-inner {
+    margin-top: 1.5rem;
+  }
 }
