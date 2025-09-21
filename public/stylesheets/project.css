@@ -88,6 +88,10 @@
   margin: 0 auto;
 }
 
+.image-grid.single-image img {
+  margin-bottom: 1rem;
+}
+
 .image-wrapper {
   position: relative;
 }
