@@ -4,15 +4,15 @@
 }
 
 .btn-primary {
-  --bs-btn-bg: #ccc;
-  --bs-btn-border-color: #ccc;
-  --bs-btn-color: #000;
-  --bs-btn-hover-bg: #b3b3b3;
-  --bs-btn-hover-border-color: #b3b3b3;
-  --bs-btn-hover-color: #000;
-  --bs-btn-active-bg: #999;
-  --bs-btn-active-border-color: #999;
-  --bs-btn-active-color: #000;
+  --bs-btn-bg: #FFE0F2;
+  --bs-btn-border-color: #FFE0F2;
+  --bs-btn-color: #4E4138;
+  --bs-btn-hover-bg: #FFD4EC;
+  --bs-btn-hover-border-color: #FFD4EC;
+  --bs-btn-hover-color: #4E4138;
+  --bs-btn-active-bg: #FFE6F5;
+  --bs-btn-active-border-color: #FFE6F5;
+  --bs-btn-active-color: #4E4138;
 }
 
 .reveal {
@@ -27,18 +27,39 @@
   transform: none;
 }
 
-footer a {
-  text-decoration: none;
-  color: inherit;
+.navbar {
+  background-color: #F3EFE9;
 }
 
-footer a:hover {
+.nav-link {
+  color: #2C5B47;
+}
+
+footer {
+  background-color: #F3EFE9;
+  /* background-color: #F3EFE9; */
+}
+
+footer .text-muted,
+footer a i {
+  color: #2C5B47;
+}
+
+footer .text-muted {
+  color: #4E4138 !important;
+}
+
+/* footer a:hover i {
   color: #007bff;
 }
 
 footer a:focus,
 footer a:active {
   color: #007bff;
+} */
+
+footer a {
+  text-decoration: none;
 }
 
 .logo {
@@ -85,6 +106,7 @@ footer a:active {
   font-size: 1rem;
   text-align: center;
   margin-top: 1.3rem;
+  color: #4E4138;
 }
 
 @media (hover: hover) {
