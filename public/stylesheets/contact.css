@@ -105,7 +105,7 @@
   border: 1px solid #f5b2b2;
 }
 
-@media (max-width: 1026px) {
+@media (max-width: 1199px) {
   .contact-title {
     margin-bottom: 1rem;
   }
