@@ -102,7 +102,7 @@
         "subtitle": "Sheridan College"
       },
       {
-        "href": "pod-display",
+        "href": "patio-pod-display",
         "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757266571/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6589_hsr7ht.jpg",
         "images": [
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1757266571/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6589_hsr7ht.jpg",
@@ -111,6 +111,18 @@
           "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1756869357/Sabrina%20Pacheco/Merchandising/Pod%20Display/IMG_6611_znggbs.jpg"
         ],
         "display": "Patio Pod Display",
+        "description": null,
+        "collaborators": null,
+        "subtitle": "The Brick"
+      },
+      {
+        "href": "holiday-pod-display",
+        "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767053993/Sabrina%20Pacheco/Merchandising/Holiday%20Pod%20Display/IMG_2705_ulebaa.jpg",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767053993/Sabrina%20Pacheco/Merchandising/Holiday%20Pod%20Display/IMG_2705_ulebaa.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767053992/Sabrina%20Pacheco/Merchandising/Holiday%20Pod%20Display/IMG_2708_aozo5c.jpg"
+        ],
+        "display": "Holiday Pod Display",
         "description": null,
         "collaborators": null,
         "subtitle": "The Brick"
@@ -153,6 +165,26 @@
         "display": "Set Design with Kortney Wilson - Life is Messy",
         "description": "I had the opportunity to contribute to The Brick’s collaboration with designer Kortney Wilson, where I worked on set design alongside other Visual Merchandisers. My role included styling and arranging key pieces to showcase welcoming displays that highlighted the featured furniture and decor. This project was a great opportunity to combine creative styling with brand direction and collaborate with both the design team and external partners.",
         "collaborators": "<strong>Collaborators:</strong> Kelly Colterman, Dalya Jabr",
+        "subtitle": "The Brick"
+      },
+      {
+        "href": "scott-brothers",
+        "coverimg": "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050670/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2799_jplqt5.jpg",
+        "images": [
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050670/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2799_jplqt5.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050669/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2795_pi4ehf.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050669/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2771_lyqegq.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767054072/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2742_q2yloi.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050161/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2760_txyvcf.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050161/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2802_sxw3uv.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050162/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2807_xieg2s.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050162/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2783_zgnete.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050161/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2786_gbllk9.jpg",
+          "https://res.cloudinary.com/doofnvidt/image/upload/f_auto,q_auto/v1767050162/Sabrina%20Pacheco/Merchandising/Scott%20Bros%20Set/IMG_2759_m6qefg.jpg"
+        ],
+        "display": "Set Design - Scott Brothers Entertainment",
+        "description": "I had the opportunity to contribute to The Brick’s collaboration with Scott Brothers Entertainment. In my set design role, I focused on styling and arranging bedroom and living room sets, including furniture placement, accessory styling, and cohesive, camera-ready environments that highlighted the featured furniture and decor.",
+        "collaborators": "<strong>Collaborators:</strong> Dalya Jabr",
         "subtitle": "The Brick"
       },
       {
